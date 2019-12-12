@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+.circle-second:hover .second-img{
+    display: block;
+}
+
+.circle-third:hover .third-img{
+    display: block;
+}
+
+.circle-fourth:hover .fourth-img{
+    display: block;
+}
+
+.first-img{
+    display: block;
+}
+
+img{
+    width: 800px;
+    position: absolute;
+    left: calc(50% - 400px);
+    display: none;
+}
